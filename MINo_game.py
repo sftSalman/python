@@ -10,7 +10,9 @@ def minion_game(string):
     if vow<cons:
         print('Stuart ' + str(cons))
     elif vow>cons:
-        print('Kevin ' + str(vowel))
+        print('Kevin ' + str(vow))
     else:
         print('Draw')
-minion_game('BANANA')
+if __name__ == '__main__':
+    s = input()
+    minion_game(s)

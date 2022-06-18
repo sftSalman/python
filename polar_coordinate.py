@@ -1,2 +1,4 @@
-import cmath
-print(cmath.polar(1,2))
+from itertools import product
+A = map(int(input().split(" "))
+B = int(input().split(" "))
+print(list(product(A,B)))

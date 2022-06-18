@@ -1,7 +1,9 @@
 from itertools import permutations
-s = input()
-p = permutations(s,3)
-n =0
+s,n = input().upper().split()
+p = permutations(s,int(n))
+
+new =[]
 for i in p:
-    print(i)
+   new.append(''.join(i))
+print('\n'.join(sorted(new)))
 

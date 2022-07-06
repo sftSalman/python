@@ -1,6 +1,6 @@
 color = ['red','green','blue']
 num = [1,2,3]
-s = 's'
+s = 'sm'
 for x in color:
     for y in num:
         for j in s:

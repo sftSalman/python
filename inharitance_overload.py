@@ -8,4 +8,4 @@ class Person():
         print(self.name,self.age,self.gender)
 
 p = Person('Salman',23,'male')
-print(p.name,p.age,p.gender)
+p.__str__()

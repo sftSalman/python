@@ -11,3 +11,6 @@ def fibonacci(n):
         n1.n2 = n2,nth
         count = count + 1
     return outPut
+
+n = int(input())
+print(list(map(cube, fibonacci(n))))

@@ -7,3 +7,6 @@ for i in range(len(my_list)):
             my_list[i], my_list[j] = my_list[j], my_list[i]
 
 print(my_list)
+
+my_list.insert(2,2)
+print(my_list)
